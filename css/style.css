@@ -1,0 +1,22 @@
+
+
+
+.cursive{
+  font-family: 'Dancing Script', cursive;
+}
+
+h1{
+  font-weight: bold;
+}
+
+li{
+  list-style-type: square ;
+}
+
+.right{
+float: right;
+}
+
+.left{
+  display: inline;
+}
