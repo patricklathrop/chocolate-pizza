@@ -1,5 +1,11 @@
 
 
+.line{
+  /* background-image: url("hr-image.png"); */
+  text-size-adjust: 6px;
+  background-color: rgba(100,100,100,0.1);
+  font-weight: 100;
+}
 
 .cursive{
   font-family: 'Dancing Script', cursive;
@@ -15,8 +21,36 @@ li{
 
 .right{
 float: right;
+margin-right: 500px;
 }
 
 .left{
   display: inline;
+}
+
+.container{
+position: relative;
+}
+
+.text-block{
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  background-color: transparent;
+  padding-right: 20px;
+  margin-left: 180px;
+  margin-bottom: 50px;
+}
+
+.lefty{
+  float: left;
+
+}
+
+.par{
+  max-width: 900px;
+}
+
+.center{
+  align-content: stretch;
 }
